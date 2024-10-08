@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestMergeAlternately(t *testing.T) {
+func Test_MergeAlternately(t *testing.T) {
 	var result string
 
 	result = challenges.MergeAlternately("abc", "pqr")
